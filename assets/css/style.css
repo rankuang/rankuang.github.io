@@ -25,19 +25,24 @@ h1 {
     color: #f4c71b; 
 }
 
-.byellow {
-    background-color: yellow; 
-    display: inline-block;
-}
-
 a {
     color: #b3b3b3;
     text-decoration: none;
 }
 
+.strikethrough {
+    text-decoration: line-through;
+}
+/* I want to make the strikethrough thicker and colored yellow */
+
 a:hover {
     text-decoration: underline;
     }
+
+.byellow {
+    background-color: yellow; 
+    display: inline-block;
+}
 
 img[src$="Cover-01.png"] {
     max-width: 100%;
