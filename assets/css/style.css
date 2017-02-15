@@ -60,6 +60,13 @@ body {
     margin: auto;
 }
 
+h1 {
+    font-family: niveau-grotesk, sans-serif;
+    font-style: normal;
+    font-weight: 700 !important;
+    color: #f4c71b !important;
+}
+
 .header {
     width: 950px;
     margin: auto;
@@ -76,10 +83,6 @@ body {
     float: right;
     width: 800px;
     margin: 0;
-}
-
-h1 {
-    color: #f4c71b; 
 }
 
 a {
@@ -99,12 +102,6 @@ a:hover {
 .byellow {
     background-color: yellow; 
     display: inline-block;
-}
-
-img[src$="Cover-01.png"] {
-    max-width: 100%;
-    height: auto ;
-    margin-top: 50px;
 }
 
 .cover-01:hover .index-box{
