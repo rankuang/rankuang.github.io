@@ -45,8 +45,9 @@ body {
     list-style: none;
     position: absolute;
     top: 400;
-    left: 780;
+    left: 820;
     border-left: 2px solid black;
+    padding: 0 0 0 10;
 }
 
 .index-sm {
