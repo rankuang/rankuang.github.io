@@ -1,3 +1,59 @@
+body {
+    font-family: niveau-grotesk, sans-serif !important;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.index-title {
+    font-family: futura-pt, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.cover-01 p {
+    position: absolute;
+    top: 150;
+    left: 800;
+    font-size: 200;
+}
+
+.cover-01 img {
+    height: 100%;
+    float: right;
+}
+
+.cover-01 {
+    position: relative;
+    margin: auto;
+}
+/* cannot make the text and picture responsive to screen size change :( */
+
+.cover-02 img{
+    position: absolute;
+    height: 100%;
+}
+
+.cover-02 p{
+    position: absolute;
+    top: 550;
+    left: 200;
+    font-size: 200;
+}
+
+.index-text {
+    font-size: 16;
+    list-style: none;
+    position: absolute;
+    top: 400;
+    left: 780;
+    border-left: 2px solid black;
+}
+
+.index-sm {
+    font-size: 200;
+    transform: rotate(90deg);
+}
+
 .content {
     width: 950px;
     margin: auto;
@@ -33,11 +89,11 @@ a {
 .strikethrough {
     text-decoration: line-through;
 }
-/* I want to make the strikethrough thicker and colored yellow */
 
 a:hover {
     text-decoration: underline;
     }
+/* override unsuccessful, need a separate class? */
 
 .byellow {
     background-color: yellow; 
@@ -50,8 +106,6 @@ img[src$="Cover-01.png"] {
     margin-top: 50px;
 }
 
-img[src$="Cover-02.png"] {
-    max-width: 100%;
-    height: auto ;
-    margin-top: 50px;
+.cover-01:hover .index-box{
+    display: block;
 }
