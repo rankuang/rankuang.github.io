@@ -123,3 +123,7 @@ b {
     line-height: 1.5;
 }
 
+.cover-02 a {
+    font-size: 200;
+    color: #f4c71b !important; 
+}
