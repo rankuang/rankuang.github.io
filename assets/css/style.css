@@ -1,5 +1,16 @@
+.no-gutter {
+    padding-right:0;
+    padding-left:0;
+}
+
+.no-background {
+    background-image: none;
+    border: none;
+    background: none;
+}
+
 body {
-    font-family: niveau-grotesk, sans-serif !important;
+    font-family: niveau-grotesk, sans-serif;
     font-style: normal;
     font-weight: 400;
 }
@@ -104,21 +115,23 @@ svg.rect-01 {
 
 .description {
     padding-top: 10;
-    size: auto;
+    padding-left: 10;
+    padding-right: 10;
+    height: auto;
+    width: 100%;
     background-color: rgba(256, 256, 256, 0.7);
     position: absolute;
     bottom: 0; 
 }
 
 b {
-    font-size: 50;
+    font-size: 30;
     line-height: 0.9;
     text-indent: 25;
-    padding-left: 20;
 }
 
 .description-short {
-    padding: 10 0 0 10;
+    padding: 10 0 0 0;
     font-size: 18;
     line-height: 1.5;
 }

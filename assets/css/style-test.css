@@ -1,0 +1,30 @@
+body {
+    font-family: niveau-grotesk, sans-serif !important;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.index-title {
+    font-family: futura-pt, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+}
+
+@media (min-width: 768px) {
+  .sidebar-nav .navbar .navbar-collapse {
+    padding: 0;
+    max-height: none;
+  }
+  .sidebar-nav .navbar ul {
+    float: none;
+    display: block;
+  }
+  .sidebar-nav .navbar li {
+    float: none;
+    display: block;
+  }
+  .sidebar-nav .navbar li a {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+}
