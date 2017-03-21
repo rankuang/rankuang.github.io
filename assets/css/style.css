@@ -1,142 +1,79 @@
+.navbar-inverse {
+    background-image: none;
+    border: none;
+    background-color: rgba(0,0,0,0.6);
+}
+
 .no-gutter {
     padding-right:0;
     padding-left:0;
+    margin:0;
 }
 
-.no-background {
-    background-image: none;
-    border: none;
-    background: none;
+.no-margin {
+    margin: 0;
 }
 
-body {
-    font-family: niveau-grotesk, sans-serif;
-    font-style: normal;
-    font-weight: 400;
-}
-
-.index-title {
-    font-family: futura-pt, sans-serif;
-    font-style: normal;
-    font-weight: 500;
-}
-
-.cover-01 p {
-    position: absolute;
-    top: 150;
-    left: 800;
-    font-size: 200;
-}
-
-.cover-01 img {
-    height: 100%;
-    float: right;
-}
-
-.cover-01 {
-    position: relative;
-    margin: auto;
-}
-
-.cover-02 img{
-    position: absolute;
-    height: 100%;
-}
-
-.cover-02 p{
-    position: absolute;
-    top: 550;
-    left: 200;
-    font-size: 200;
-}
-
-.index-text {
-    font-size: 16;
-    list-style: none;
-    position: absolute;
-    top: 400;
-    left: 820;
-    border-left: 2px solid black;
-    padding: 0 0 0 10;
-}
-
-.index-sm {
-    font-size: 200;
-    transform: rotate(90deg);
+.increased-margin {
+    margin-bottom: 1em;
 }
 
 .content {
-    width: 950px;
-    margin: auto;
-}
-
-h1 {
     font-family: niveau-grotesk, sans-serif;
     font-style: normal;
-    font-weight: 700 !important;
-    color: #f4c71b !important;
+    font-weight: 300;
+    font-size: 2.5vw;
 }
 
-a {
-    font-size: 20;
-    color: #b3b3b3 !important;
-    text-decoration: none !important;
+.heading {
+    font-family: niveau-grotesk, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 5vw;
 }
 
-.strikethrough {
-    text-decoration: line-through;
+.navbar-heading {
+    font-family: niveau-grotesk, sans-serif;
+    font-style: normal;
+    font-weight: 700;
 }
 
-a:hover {
-    text-decoration: underline !important;
-}
-
-.cover-01:hover .index-box{
-    display: block;
-}
-
-.work-img {
-    height: 100%;
-    object-fit: cover;
-
-}
-
-.sidebar-spacing {
-    padding-top: 30;
-    line-height: 2.5;
-}
-
-/* cannot reset the styling for navbar */
-
-svg.rect-01 {
-    position: absolute;
-    top: 200;
-}
-
-.description {
-    padding-top: 10;
-    padding-left: 10;
-    padding-right: 10;
+.img-resize {
+    width: 100vw;
     height: auto;
-    width: 100%;
-    background-color: rgba(256, 256, 256, 0.7);
+}
+
+.cover-heading {
+    font-size: 5vw;
+    top: 13vw;
     position: absolute;
-    bottom: 0; 
+    color: white;
 }
 
-b {
-    font-size: 30;
-    line-height: 0.9;
-    text-indent: 25;
+#frontpage  {
+    position: absolute;
+    left: 10vw;
 }
 
-.description-short {
-    padding: 10 0 0 0;
-    font-size: 18;
-    line-height: 1.5;
+.imgWrap {
+    position: relative;
 }
 
-.cover-02 a {
-    font-size: 200;
-    color: #f4c71b !important; 
+.imgDescription {
+    position: absolute;
+    top: 0px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 150 200;
+    background: rgba(0,0,0,0.6);
+    color: white;
+    visibility: hidden;
+    opacity: 0;
 }
+
+.imgWrap:hover .imgDescription {
+    visibility: visible;
+    opacity: 1;
+}
+
