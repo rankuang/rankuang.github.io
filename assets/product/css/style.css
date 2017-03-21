@@ -38,23 +38,16 @@
     font-weight: 700;
 }
 
-.full-img {
-    padding: 0;
+.img-resize {
     width: 100vw;
-    height: 56.25vw;
+    height: auto;
 }
 
 .cover-heading {
     font-size: 20vw;
-    position: absolute;
     top: 13vw;
-    left: 15vw;
+    position: absolute;
     color: white;
-}
-
-.img-resize {
-    width: 100vw;
-    height: auto;
 }
 
 .video-responsive {
@@ -78,4 +71,9 @@
 
 .center-text a {
     color: grey;
+    font-size: 1.5vw;
+}
+
+.small-text {
+    font-size: 1.5vw;
 }
